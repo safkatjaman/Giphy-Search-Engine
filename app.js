@@ -23,7 +23,7 @@ inputKeyPressButton.addEventListener('keyup', function(enterPressed) {
 /* 2. do the data stuff with the API */
 function getGifs(userInput) {
       /* making a new variable for the apiURL */
-      var apiURL = 'http://api.giphy.com/v1/gifs/search?q=' + userInput + '&api_key=CwQNk3e3vIe32po2woVpHMeItGkgub0v';
+      var apiURL = 'https://api.giphy.com/v1/gifs/search?q=' + userInput + '&api_key=CwQNk3e3vIe32po2woVpHMeItGkgub0v';
 
       // AJAX Request
       var GiphyAJAXCall = new XMLHttpRequest();
