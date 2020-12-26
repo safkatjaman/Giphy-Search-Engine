@@ -20,6 +20,11 @@ inputKeyPressButton.addEventListener('keyup', function(enterPressed) {
       }
 })
 
+var reloadButton = document.querySelector('.js-reload');
+reloadButton.addEventListener('dblclick', function() {
+      location.reload();
+})
+
 /* 2. do the data stuff with the API */
 function getGifs(userInput) {
       /* making a new variable for the apiURL */
@@ -50,6 +55,7 @@ function pushToDOM(inputDone, inputKeyPressButtonDone) {
             container.innerHTML = container.innerHTML + '<img src=' + src + ' class="container-image">';
             /* container.innerHTML += '<img src =' + src + '>' */
             /* same as that line it's just like concat */
+
       });
 }
 
