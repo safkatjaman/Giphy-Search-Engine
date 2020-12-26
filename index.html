@@ -4,22 +4,49 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Giphy Search Engine</title>
+      <!-- CSS File -->
       <link rel="stylesheet" href="style.css">
+
+      <!-- Bootstrap file -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+      <!-- Font Family -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap" rel="stylesheet">
+
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
 </head>
-<body>
-      <div class="container container-padding50">
 
-            <input type="text" class="js-userinput container-textinput" />
+<body class='bg-color'>
 
+<div class="jumbotron jumbotron-fluid container">
 
-            <button class="js-go js-reload container-button">Go!</button>
+      <h1 id="welcome-note">Welcome To Giphy Search Engine</h1>
 
-      </div>
+</div>
+<div class="jumbotron jumbotron-fluid container">
 
-      <div class="container container-padding50 js-container">
+            <div class="input-group mb-3 container">
 
-      </div>
+                  <input type="text" id="input-id-css" class="form-control js-userinput" placeholder="Enter GIF Name" aria-label="gif name" aria-describedby="button-addon2">
+
+                  <button id="button-id-css" class="btn btn-warning js-go js-reload" type="button" id="button-addon2">Go!</button>
+
+            </div>
+
+      
+            <div class="container container-padding50 js-container">
+      
+            </div>
+            
+</div>
 
       <script src="app.js"></script>
+
+<div class="jumbotron jumbotron-fluid">
+      <footer id="copyright"><small></small></footer>
+</div>
 </body>
 </html>
