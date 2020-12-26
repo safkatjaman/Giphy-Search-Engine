@@ -57,5 +57,7 @@ function pushToDOM(inputDone, inputKeyPressButtonDone) {
             /* same as that line it's just like concat */
 
       });
+
+      /* document.querySelector('#copyright').innerHTML = `Giphy Search Engine 2021. ©Safkats' Den, All Rights Reserved.` */
 }
 
