@@ -6,11 +6,12 @@
 #welcome-note {
 	font-family: 'Bungee Outline', cursive;
 	font-weight: bold;
-	font-size: 67px;
+	font-size: 60px;
 }
 
 .container {
-	margin-top: 1%;
+	margin: 1%;
+	padding: 0.2%;
 }
 
 #input-id-css{
@@ -20,7 +21,7 @@
 
 #button-id-css {
 	border: 1px solid black;
-	width: 10%;
+	width: 5%;
 	font-weight: bold;
 	font-family: 'Orbitron', sans-serif;
 }
